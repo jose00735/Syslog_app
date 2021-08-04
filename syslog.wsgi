@@ -5,4 +5,4 @@ import logging
 logging.basicConfig(stream=sys.stderr)
 sys.path.insert(0,"/var/www/syslog")
 
-from syslog import app as application
+from syslog_app import app as application

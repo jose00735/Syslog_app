@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 import json
 import subprocess
-from Syslog_app.guardar_mqtt_db import cargarDB
+from guardar_mqtt_db import cargarDB
 
 
 def on_connect(client, userdata, flags, rc):
