@@ -1,6 +1,7 @@
 from random import random
 import os
 import secrets
+import json
 from flask import redirect, flash, url_for, render_template
 from Syslog_app import app, bcrypt, user_generator, savedb, test
 from Syslog_app.forms import RegistrationForm, LoginForm, UpdateAccountForm
